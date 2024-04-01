@@ -95,9 +95,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Alpha: 0.385
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _Amplitude: 0.3
+    - _AmbientOcclusion: 1
+    - _Amplitude: 0.135
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
@@ -112,22 +114,24 @@ Material:
     - _EnvironmentReflections: 1
     - _Float: 0
     - _FoamDensity: 1
-    - _FoamSpeed: 2
-    - _FoamThickness: 2
+    - _FoamSpeed: 1
+    - _FoamThickness: 4.6
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _Period: 2.5
+    - _Period: 4
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _ReflectStrength: 2
+    - _ReflectionStrength: 0.8
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 0.5
+    - _Speed: -0.5
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
